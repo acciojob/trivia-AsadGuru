@@ -4,12 +4,105 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
-</head>
+<!-- </head>
 
 <body>
 	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- <script type="text/javascript" src="./script.js">
+</script> -->
+
+	<style>
+        /* CSS Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .quiz-container {
+            width: 80%;
+            max-width: 600px;
+            margin: 40px auto;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .question {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            color: #333333;
+        }
+        .answers {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+        .answers li {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #dddddd;
+            border-radius: 4px;
+            background-color: #f9f9f9;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .answers li:hover {
+            background-color: #e0f7fa;
+            border-color: #b2ebf2;
+            cursor: pointer;
+        }
+        .answers input[type="radio"] {
+            margin-right: 10px;
+        }
+        .submit-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            border: none;
+            border-radius: 4px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-button:hover {
+            background-color: #0056b3;
+        }
+        blockquote {
+            max-width: 600px;
+            margin: 10px auto;
+            padding: 15px;
+            border-left: 8px solid green;
+            background-color: #f8fffe;
+            font-weight: bold;
+            color: #333333;
+            border-radius: 4px;
+        }
+        cite {
+            display: block;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #666666;
+        }
+    </style>
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="question">
+            <p>What is the capital of India?</p>
+        </div>
+        
+        <ul class="answers">
+            <li><input type="radio" name="answer" value="new-delhi"> New Delhi</li>
+            <li><input type="radio" name="answer" value="mumbai"> Mumbai</li>
+        </ul>
+		<blockquote>
+            New Delhi is the capital of India and an administrative district of NCT Delhi.
+            <cite>— Wikipedia</cite>
+        </blockquote>
+        <button class="submit-button">Submit Answer</button>
+    </div>
 
 </body>
 
